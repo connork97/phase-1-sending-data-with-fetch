@@ -22,7 +22,7 @@ const submitData = (name, email) => {
     })
     .catch((error) => {
         console.log(error);
-        alert(error);
+        document.body.innerHTML = error;
     })
 };
 
